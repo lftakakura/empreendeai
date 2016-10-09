@@ -1,5 +1,6 @@
 .front-page-section {
     margin-bottom: 100px;
+    margin-top: 50px;
     overflow-x: hidden;
 }
 .center-section {
@@ -24,14 +25,26 @@
     font-size: 60px;
 }
 #header .top-header .header-navigation ul li a:hover {
-    color: #01A5D4;
+    color: #BD2025;
 }
 #static-page-content {
     overflow-x: hidden;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .front-page-section .section-header h3 {
-    color: #01A5D4;
+    color: #BD2025;
     text-align: center;
+}
+.red-section {
+    background-color: #BD2025 !important;
+    color: white !important;
+}
+.red-section > a {
+    color: white;
+}
+.red-section > a:hover {
+    color: white;
 }
 blockquote {
     font-size: 15px;
