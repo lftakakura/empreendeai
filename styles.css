@@ -1,7 +1,11 @@
 .front-page-section {
-    margin-bottom: 100px;
-    margin-top: 50px;
+    /*margin-bottom: 100px;*/
+    padding-top: 50px;
     overflow-x: hidden;
+}
+.front-page span {
+    font-size: 54px;
+    color: #BD2025;
 }
 .center-section {
     padding-left: 20%;
@@ -29,19 +33,29 @@
 }
 #static-page-content {
     overflow-x: hidden;
+    padding-top: 0 !important;
     padding-bottom: 0;
     margin-bottom: 0;
+}
+#header .top-header .header-navigation {
+    float: left !important;
 }
 .front-page-section .section-header h3 {
     color: #BD2025;
     text-align: center;
 }
+.red-section h3 {
+    color: white !important;
+}
 .red-section {
     background-color: #BD2025 !important;
     color: white !important;
 }
-.red-section > a {
+.red-section a {
     color: white;
+}
+.red-section .list-group-item {
+    background-color: transparent;
 }
 .red-section > a:hover {
     color: white;
