@@ -1,0 +1,41 @@
+.front-page-section {
+    margin-bottom: 100px;
+    overflow-x: hidden;
+}
+.center-section {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.paragraph-side {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+.paragraph-center {
+    text-align: left;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+.top-icon {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 60px;
+}
+#header .top-header .header-navigation ul li a:hover {
+    color: #01A5D4;
+}
+#static-page-content {
+    overflow-x: hidden;
+}
+.front-page-section .section-header h3 {
+    color: #01A5D4;
+    text-align: center;
+}
+blockquote {
+    font-size: 15px;
+}
+span {
+    font-size: 15px;
+}
