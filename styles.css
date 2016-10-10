@@ -52,7 +52,10 @@
     color: white !important;
 }
 .red-section a {
-    color: white;
+    color: white !important;
+}
+.red-section span {
+    color: white !important;
 }
 .red-section .list-group-item {
     background-color: transparent;
@@ -61,8 +64,34 @@
     color: white;
 }
 blockquote {
-    font-size: 15px;
+    font-size: 18px;
 }
-span {
-    font-size: 15px;
+body {
+    font-size: 18px;
+}
+.custom-btn {
+    width: auto;
+    height: 63px;
+    line-height: 63px;
+    background: #BD2025;
+    margin: 0 15px;
+    padding: 0 70px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.custom-btn:hover {
+    background: #8B1F24;
+    color: white;
+}
+.top-icon img {
+    display: block;
+    margin: auto;
 }
