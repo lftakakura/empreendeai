@@ -3,6 +3,9 @@
     padding-top: 50px;
     overflow-x: hidden;
 }
+.front-page-section .section-header h3 {
+    line-height: 1.0;
+}
 .front-page span {
     font-size: 54px;
     color: #BD2025;
@@ -25,6 +28,11 @@
 }
 .top-icon {
     margin-bottom: 25px;
+    text-align: center;
+    font-size: 60px;
+}
+.top-icon2 {
+    margin-bottom: 0px;
     text-align: center;
     font-size: 60px;
 }
@@ -66,16 +74,13 @@
 blockquote {
     font-size: 18px;
 }
-body {
-    font-size: 18px;
-}
 .custom-btn {
-    width: auto;
+    width: 200px;
     height: 63px;
     line-height: 63px;
     background: #BD2025;
     margin: 0 15px;
-    padding: 0 70px;
+    padding: 0 0px;
     display: inline-block;
     border-radius: 3px;
     font-weight: 700;
@@ -94,4 +99,34 @@ body {
 .top-icon img {
     display: block;
     margin: auto;
+}
+
+/*small*/
+@media (max-width: 992px) {
+    .head-menu {
+        padding-top: 10px;
+    }
+
+    .paragraph-side {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .paragraph-center {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+@media (max-width: 330px) {
+    .logo {
+        padding-left: 7px !important;
+    }
+    #header .bottom-header {
+        padding-top: 140px;
+    }
+}
+
+@media (min-width: 993px) {
+    body {
+        font-size: 18px;
+    }
 }
